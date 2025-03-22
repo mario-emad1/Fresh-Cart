@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite"; 
+/* .active{
+    color: red;
+    font-weight: 700;
+} */
+
+
+.heart-icon{
+    transition: all 0.8s;
+    top: 0;
+    right: -100%;
+}
+.product-card:hover .heart-icon{
+    right:0;
+    transition: all 0.5s;
+}
+/* .product-card{
+    transition: all 0.5s;
+} */
