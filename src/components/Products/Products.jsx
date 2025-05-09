@@ -34,12 +34,14 @@ export default function Products() {
         setUserWishList(response?.data?.data)
         if (response.data.status === "success") {
             toast.success(response.data.message, {
-                duration: 2000
+                duration: 2000,
+                position:'bottom-right'
             });
         }
         else {
             toast.error(response.data.message, {
-                duration: 2000
+                duration: 2000,
+                position:'bottom-right'
             });
         }
     }
@@ -50,12 +52,14 @@ export default function Products() {
         console.log(response);
         if (response.data.status === "success") {
             toast.success(response.data.message, {
-                duration: 2000
+                duration: 2000,
+                position:'bottom-right'
             });
         }
         else {
             toast.error(response.data.message, {
-                duration: 2000
+                duration: 2000,
+                position:'bottom-right'
             });
         }
     }
@@ -66,12 +70,14 @@ export default function Products() {
         console.log(response);
         if (response.data.status === "success") {
             toast.success(response.data.message, {
-                duration: 2000
+                duration: 2000,
+                position:'bottom-right'
             });
         }
         else {
             toast.error(response.data.message, {
-                duration: 2000
+                duration: 2000,
+                position:'bottom-right'
             });
         }
     }

@@ -36,7 +36,7 @@ let routing = createBrowserRouter([
       { path: 'brands', element: <ProtectedRouting> <Brands /> </ProtectedRouting> },
       { path: 'categories', element: <ProtectedRouting> <Categories /> </ProtectedRouting> },
       { path: 'cart', element: <ProtectedRouting> <Cart /> </ProtectedRouting> },
-      { path: 'allorders', element: <ProtectedRouting> <Navigate to="/" replace /> </ProtectedRouting> },
+      { path: '//allorders', element: <Navigate to="/" replace /> },
       { path: 'checkout', element: <ProtectedRouting> <Checkout /> </ProtectedRouting> },
       { path: 'wishlist', element: <ProtectedRouting> <WishList /> </ProtectedRouting> },
       { path: '*', element: <ProtectedRouting> <Notfound /> </ProtectedRouting> },

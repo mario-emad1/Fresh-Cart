@@ -2,12 +2,12 @@
   "name": "fresh-cart",
   "private": true,
   "version": "0.0.0",
-  "homepage":"https://mario-emad1.github.io/Fresh-Cart",
+  "homepage": "https://mario-emad1.github.io/Fresh-Cart",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
