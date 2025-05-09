@@ -33,7 +33,7 @@ export default function Checkout() {
             city: ""
         },
         validationSchema,
-        onSubmit: () => handleCheckOut(userCartId, 'http://localhost:5173')
+        onSubmit: () => handleCheckOut(userCartId, 'https://fresh-cart-flax-nine.vercel.app')
     })
 
     async function getCartId() {
