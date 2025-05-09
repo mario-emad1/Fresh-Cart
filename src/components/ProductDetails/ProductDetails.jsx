@@ -19,12 +19,14 @@ export default function ProductDetails() {
         console.log(response);
         if (response.data.status === "success") {
             toast.success(response.data.message, {
-                duration: 2000
+                duration: 2000,
+                position:'bottom-right'
             });
         }
         else {
             toast.error(response.data.message, {
-                duration: 2000
+                duration: 2000,
+                position:'bottom-right'
             });
         }
     }
